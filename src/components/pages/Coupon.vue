@@ -84,7 +84,7 @@
 
              <div class="form-group">
                <label for="title">到期日</label>
-               <DatePicker class="form-control" v-model="tempCoupon.due_date" format="YYYY-MM-DD" />
+               <DatePicker class="w-100" v-model="tempCoupon.due_date" format="YYYY-MM-DD" />
              </div>
             
               <hr>            
